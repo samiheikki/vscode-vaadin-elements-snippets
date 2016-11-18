@@ -1,0 +1,18 @@
+{
+    "name": "vscode-vaadin-elements-snippets",
+    "displayName": "Vaadin Elements Snippets",
+    "publisher": "samiheikki",
+    "description": "Code snippets for Vaadin Elements",
+    "icon": "images/vaadin.png",
+    "version": "0.1.0",
+    "engines": { "vscode": "0.10.x" },
+    "categories": ["Snippets"], 
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            }
+        ]
+    }
+}

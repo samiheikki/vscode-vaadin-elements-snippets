@@ -1,0 +1,512 @@
+{
+	/* Core Elements */
+	"Vaadin Combo Box": {
+		"prefix": "vaadin-combo-box",
+		"body": [
+			"<vaadin-combo-box label=\"$1\" items=\"$2\"></vaadin-combo-box>"
+		],
+		"description": "Combo Box Element"
+	},
+	"Vaadin Date Picker": {
+		"prefix": "vaadin-date-picker",
+		"body": [
+			"<vaadin-date-picker label=\"$1\"></vaadin-date-picker>"
+		],
+		"description": "Date Picker Element"
+	},
+	"Vaadin Context Menu": {
+		"prefix": "vaadin-context-menu",
+		"body": [
+			"<vaadin-context-menu>",
+			"\t<template>",
+			"\t\t<paper-menu>",
+			"\t\t\t<paper-item>Item 1</paper-item>",
+			"\t\t\t<paper-item>Item 2</paper-item>",
+			"\t\t<paper-menu>",
+			"\t</template>",
+			"\t<a href=\"#\" id=\"opener\">Right Click to open</a>",
+			"</vaadin-context-menu>"
+		],
+		"description": "Context Menu Element"
+	},
+	"Vaadin Grid": {
+		"prefix": "vaadin-grid",
+		"body": [
+			"<vaadin-grid>",
+			"\t<table>",
+			"\t\t<colgroup>",
+			"\t\t\t<col name=\"$1\">",
+			"\t\t\t<col name=\"$2\">",
+			"\t\t\t<col name=\"$3\">",
+			"\t\t</colgroup>",
+			"\t</table>",
+			"</vaadin-grid>"
+		],
+		"description": "Datagrid Element"
+	},
+	"Vaadin Split Layout": {
+		"prefix": "vaadin-split-layout",
+		"body": [
+			"<vaadin-split-layout>",
+			"\t<div>$1</div>",
+			"\t<div>$2</div>",
+			"</vaadin-split-layout>"
+		],
+		"description": "Split Layout Element"
+	},
+	"Vaadin Upload": {
+		"prefix": "vaadin-upload",
+		"body": [
+			"<vaadin-upload target=\"$1\"></vaadin-upload>"
+		],
+		"description": "File Upload Element"
+	},
+
+	/* Charts */
+
+	"Vaadin Area Chart": {
+		"prefix": "vaadin-area-chart",
+		"body": [
+			"<vaadin-area-chart>",
+			"\t<chart-title>${1:Fibonacci}</chart-title>",
+			"\t<x-axis>",
+			"\t\t<title>${2:Index}</title>",
+			"\t</x-axis>",
+			"\t<y-axis>",
+			"\t\t<title>${3:Value}</title>",
+			"\t</y-axis>",
+			"\t<data-series>",
+			"\t\t<data>${4:1, 1, 2, 3, 5, 8, 13, 21, 34}</data>",
+			"\t</data-series>",
+			"\t<data-series>",
+			"\t\t<data>${5:34, 21, 13, 8, 5, 3, 2, 1, 1}</data>",
+			"\t</data-series>",
+			"</vaadin-area-chart>"
+		],
+		"description": "Area Chart Element"
+	},
+	"Vaadin Area Range Chart": {
+		"prefix": "vaadin-arearange-chart",
+		"body": [
+			"<vaadin-arearange-chart>",
+			"\t<chart-title>${1:Temperature}</chart-title>",
+			"\t<x-axis>",
+			"\t\t<title>${2:Month}</title>",
+			"\t</x-axis>",
+			"\t<y-axis>",
+			"\t\t<title>${3:Temperature}</title>",
+			"\t</y-axis>",
+			"\t<data-series>",
+			"\t\t<data>",
+			"\t\t\t${4:[-9.7, 9.4],[-8.7, 6.5],[-3.5, 9.4],[-1.4, 19.9],[0.0, 22.6],[2.9, 29.5],[9.2, 30.7],[7.3, 26.5],[4.4, 18.0],[-3.1, 11.4],[-5.2, 10.4],[-13.5, 9.8]}",
+			"\t\t</data>",
+			"\t</data-series>",
+			"</vaadin-arearange-chart>"
+		],
+		"description": "Area Range Chart Element"
+	},
+	"Vaadin Area Spline Chart": {
+		"prefix": "vaadin-areaspline-chart",
+		"body": [
+			"<vaadin-areaspline-chart>",
+			"\t<chart-title>${1:Fibonacci}</chart-title>",
+			"\t<x-axis>",
+			"\t\t<title>${2:Index}</title>",
+			"\t</x-axis>",
+			"\t<y-axis>",
+			"\t\t<title>${3:Value}</title>",
+			"\t</y-axis>",
+			"\t<data-series>",
+			"\t\t<data>${4:1, 1, 2, 3, 5, 8, 13, 21, 34}</data>",
+			"\t</data-series>",
+			"\t<data-series>",
+			"\t\t<data>${5:34, 21, 13, 8, 5, 3, 2, 1, 1}</data>",
+			"\t</data-series>",
+			"</vaadin-areaspline-chart>"
+		],
+		"description": "Area Spline Chart Element"
+	},
+	"Vaadin Area Spline Range Chart": {
+		"prefix": "vaadin-areasplinerange-chart",
+		"body": [
+			"<vaadin-areasplinerange-chart>",
+			"\t<chart-title>${1:Temperature}</chart-title>",
+			"\t<x-axis>",
+			"\t\t<title>${2:Month}</title>",
+			"\t</x-axis>",
+			"\t<y-axis>",
+			"\t\t<title>${3:Temperature}</title>",
+			"\t</y-axis>",
+			"\t<data-series>",
+			"\t\t<data>",
+			"\t\t\t${4:[-9.7, 9.4],[-8.7, 6.5],[-3.5, 9.4],[-1.4, 19.9],[0.0, 22.6],[2.9, 29.5],[9.2, 30.7],[7.3, 26.5],[4.4, 18.0],[-3.1, 11.4],[-5.2, 10.4],[-13.5, 9.8]}",
+			"\t\t</data>",
+			"\t</data-series>",
+			"</vaadin-areasplinerange-chart>"
+		],
+		"description": "Area Spline Chart Element"
+	},
+	"Vaadin Bar Chart": {
+		"prefix": "vaadin-bar-chart",
+		"body": [
+			"<vaadin-bar-chart>",
+			"\t<chart-title>${1:Fibonacci}</chart-title>",
+			"\t<x-axis>",
+			"\t\t<title>${2:Index}</title>",
+			"\t</x-axis>",
+			"\t<y-axis>",
+			"\t\t<title>${3:Value}</title>",
+			"\t</y-axis>",
+			"\t<data-series>",
+			"\t\t<data>${4:1, 1, 2, 3, 5, 8, 13, 21, 34}</data>",
+			"\t</data-series>",
+			"</vaadin-bar-chart>"
+		],
+		"description": "Bar Chart Element"
+	},
+	"Vaadin Box Plot Chart": {
+		"prefix": "vaadin-boxplot-chart",
+		"body": [
+			"<vaadin-boxplot-chart>",
+			"\t<chart-title>${1:Observations}</chart-title>",
+			"\t<x-axis>",
+			"\t\t<title>${2:X}</title>",
+			"\t</x-axis>",
+			"\t<y-axis>",
+			"\t\t<title>${3:Y}</title>",
+			"\t</y-axis>",
+			"\t<data-series>",
+			"\t\t<data>",
+			"\t\t\t${4:[760, 801, 848, 895, 965],[834, 836, 864, 882, 910]}	",
+			"\t\t</data>",
+			"\t</data-series>",
+			"</vaadin-boxplot-chart>"
+		],
+		"description": "Box Plot Chart Element"
+	},
+	"Vaadin Bubble Chart": {
+		"prefix": "vaadin-bubble-chart",
+		"body": [
+			"<vaadin-bubble-chart>",
+			"\t<chart-title>${1:Fibonacci}</chart-title>",
+			"\t<x-axis>",
+			"\t\t<title>${2:Index}</title>",
+			"\t</x-axis>",
+			"\t<y-axis>",
+			"\t\t<title>${3:Value}</title>",
+			"\t</y-axis>",
+			"\t<data-series>",
+			"\t\t<data>${4:1, 1, 2, 3, 5, 8, 13, 21, 34}</data>",
+			"\t</data-series>",
+			"</vaadin-bubble-chart>"
+		],
+		"description": "Bubble Chart Element"
+	},
+	"Vaadin Column Chart": {
+		"prefix": "vaadin-column-chart",
+		"body": [
+			"<vaadin-column-chart>",
+			"\t<chart-title>${1:Fibonacci}</chart-title>",
+			"\t<x-axis>",
+			"\t\t<title>${2:Index}</title>",
+			"\t</x-axis>",
+			"\t<y-axis>",
+			"\t\t<title>${3:Value}</title>",
+			"\t</y-axis>",
+			"\t<data-series>",
+			"\t\t<data>${4:1, 1, 2, 3, 5, 8, 13, 21, 34}</data>",
+			"\t</data-series>",
+			"</vaadin-column-chart>"
+		],
+		"description": "Column Chart Element"
+	},
+	"Vaadin Column Range Chart": {
+		"prefix": "vaadin-columnrange-chart",
+		"body": [
+			"<vaadin-columnrange-chart>",
+			"\t<chart-title>${1:Temperature}</chart-title>",
+			"\t<x-axis>",
+			"\t\t<title>${2:Month}</title>",
+			"\t</x-axis>",
+			"\t<y-axis>",
+			"\t\t<title>${3:Temperature}</title>",
+			"\t</y-axis>",
+			"\t<data-series>",
+			"\t\t<data>",
+			"\t\t\t${4:[-9.7, 9.4],[-8.7, 6.5],[-3.5, 9.4],[-1.4, 19.9],[0.0, 22.6],[2.9, 29.5],[9.2, 30.7],[7.3, 26.5],[4.4, 18.0],[-3.1, 11.4],[-5.2, 10.4],[-13.5, 9.8]}",
+			"\t\t</data>",
+			"\t</data-series>",
+			"</vaadin-columnrange-chart>"
+		],
+		"description": "Column Range Chart Element"
+	},
+	"Vaadin Error Bar Chart": {
+		"prefix": "vaadin-errorbar-chart",
+		"body": [
+			"<vaadin-errorbar-chart>",
+			"\t<chart-title>${1:Rainfall}</chart-title>",
+			"\t<x-axis>",
+			"\t\t<title>${2:Month}</title>",
+			"\t</x-axis>",
+			"\t<y-axis>",
+			"\t\t<title>${3:Value}</title>",
+			"\t</y-axis>",
+			"\t<data-series name=\"Rainfall\" type=\"column\">",
+			"\t\t<data>",
+			"\t\t\t${4:49.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4}",
+			"\t\t</data>",
+			"\t</data-series>",
+			"\t<data-series name=\"Rainfall error\">",
+			"\t\t<data>",
+			"\t\t\t${5:[48, 51], [68, 73], [92, 110], [128, 136], [140, 150], [171, 179], [135, 143], [142, 149], [204, 220], [189,199], [95, 110], [52, 56]}",
+			"\t\t</data>",
+			"\t</data-series>",
+			"</vaadin-errorbar-chart>"
+		],
+		"description": "Error Bar Chart Element"
+	},
+	"Vaadin Funnel Chart": {
+		"prefix": "vaadin-funnel-chart",
+		"body": [
+			"<vaadin-funnel-chart>",
+			"\t<chart-title>${1:Sales Funnel}</chart-title>",
+			"\t<data-series>",
+			"\t\t<data>",
+			"\t\t\t${2:['Website visits', 15654],['Downloads', 4064],['Requested price list', 1987],['Invoice sent', 976],['Finalized', 846]}",
+			"\t\t</data>",
+			"\t</data-series>",
+			"</vaadin-funnel-chart>"
+		],
+		"description": "Funnel Chart Element"
+	},
+	"Vaadin Gauge Chart": {
+		"prefix": "vaadin-gauge-chart",
+		"body": [
+			"<vaadin-gauge-chart>",
+			"\t<chart-title>${1:Speed}</chart-title>",
+			"\t<y-axis min=\"0\" max=\"200\"></y-axis>",
+			"\t<data-series>",
+			"\t\t<data>${2:80}</data>",
+			"\t</data-series>",
+			"</vaadin-gauge-chart>"
+		],
+		"description": "Gauge Chart Element"
+	},
+	"Vaadin Heatmap Chart": {
+		"prefix": "vaadin-heatmap-chart",
+		"body": [
+			"<vaadin-heatmap-chart>",
+			"\t<chart-title>${1:Fibonacci}</chart-title>",
+			"\t<x-axis>",
+			"\t\t<title>${2:Column}</title>",
+			"\t</x-axis>",
+			"\t<y-axis>",
+			"\t\t<title>${3:Row}</title>",
+			"\t</y-axis>",
+			"\t<color-axis min=\"0\" min-color=\"#ffffff\" max-color=\"#3090f0\"></color-axis>",
+			"\t<data-series>",
+			"\t\t<data>",
+			"\t\t\t${4:[0, 0, 1],[0, 1, 1],[0, 2, 2],[1, 0, 3],[1, 1, 5],[1, 2, 8],[2, 0, 13],[2, 1, 21],[2, 2, 34]}",
+			"\t\t</data>",
+			"\t</data-series>",
+			"</vaadin-heatmap-chart>"
+		],
+		"description": "Heatmap Chart Element"
+	},
+	"Vaadin Line Chart": {
+		"prefix": "vaadin-line-chart",
+		"body": [
+			"<vaadin-line-chart>",
+			"\t<chart-title>${1:Fibonacci}</chart-title>",
+			"\t<x-axis>",
+			"\t\t<title>${2:Index}</title>",
+			"\t</x-axis>",
+			"\t<y-axis>",
+			"\t\t<title>${3:Value}</title>",
+			"\t</y-axis>",
+			"\t<data-series>",
+			"\t\t<data>${4:1, 1, 2, 3, 5, 8, 13, 21, 34}</data>",
+			"\t</data-series>",
+			"</vaadin-line-chart>"
+		],
+		"description": "Line Chart Element"
+	},
+	"Vaadin Pie Chart": {
+		"prefix": "vaadin-pie-chart",
+		"body": [
+			"<vaadin-pie-chart>",
+			"\t<chart-title>${1:Fibonacci}</chart-title>",
+			"\t<data-series>",
+			"\t\t<data>",
+			"\t\t\t${2:[\"First\",  1],[\"Second\", 1],[\"Third\",  2],[\"Fourth\", 3],[\"Fifth\",  5],[\"Sixth\",  8],[\"Eighth\", 13],[\"Ninth\",  21]}",
+			"\t\t</data>",
+			"\t</data-series>",
+			"</vaadin-pie-chart>"
+		],
+		"description": "Pie Chart Element"
+	},
+	"Vaadin Polygon Chart": {
+		"prefix": "vaadin-polygon-chart",
+		"body": [
+			"<vaadin-polygon-chart>",
+			"\t<chart-title>${1:Height vs Weight}</chart-title>",
+			"\t<x-axis>",
+			"\t\t<title>${2:Height}</title>",
+			"\t</x-axis>",
+			"\t<y-axis>",
+			"\t\t<title>${3:Weight}</title>",
+			"\t</y-axis>",
+			"\t<data-series>",
+			"\t\t<data>",
+			"\t\t\t${4:[153, 42], [149, 46], [149, 55], [152, 60], [159, 70], [170, 77], [180, 70],[180, 60], [173, 52], [166, 45]}",
+			"\t\t</data>",
+			"\t</data-series>",
+			"</vaadin-polygon-chart>"
+		],
+		"description": "Polygon Chart Element"
+	},
+	"Vaadin Pyramid Chart": {
+		"prefix": "vaadin-pyramid-chart",
+		"body": [
+			"<vaadin-pyramid-chart>",
+			"\t<chart-title>${1:Sales Pyramid}</chart-title>",
+			"\t<data-series>",
+			"\t\t<data>",
+			"\t\t\t ${2:['Website visits', 15654],['Downloads', 4064],['Requested price list', 1987],['Invoice sent', 976],['Finalized', 846]}",
+			"\t\t</data>",
+			"\t</data-series>",
+			"</vaadin-pyramid-chart>"
+		],
+		"description": "Pyramid Chart Element"
+	},
+	"Vaadin Scatter Chart": {
+		"prefix": "vaadin-scatter-chart",
+		"body": [
+			"<vaadin-scatter-chart>",
+			"\t<chart-title>${1:Height vs Weight}</chart-title>",
+			"\t<x-axis>",
+			"\t\t<title>${2:Height}</title>",
+			"\t</x-axis>",
+			"\t<y-axis>",
+			"\t\t<title>${3:Weight}</title>",
+			"\t</y-axis>",
+			"\t<data-series>",
+			"\t\t<data>",
+			"\t\t\t${4:[153, 42], [149, 46], [149, 55], [152, 60], [159, 70], [170, 77], [180, 70],[180, 60], [173, 52], [166, 45]}",
+			"\t\t</data>",
+			"\t</data-series>",
+			"</vaadin-scatter-chart>"
+		],
+		"description": "Scatter Chart Element"
+	},
+	"Vaadin Solid Gauge Chart": {
+		"prefix": "vaadin-solidgauge-chart",
+		"body": [
+			"<vaadin-solidgauge-chart>",
+			"\t<chart-title>${1:Speed}</chart-title>",
+			"\t<y-axis min=\"0\" max=\"200\"></y-axis>",
+			"\t<data-series>",
+			"\t\t<data>${2:80}</data>",
+			"\t</data-series>",
+			"</vaadin-solidgauge-chart>"
+		],
+		"description": "Solid Gauge Chart Element"
+	},
+	"Vaadin Sparkline": {
+		"prefix": "vaadin-sparkline",
+		"body": [
+			"<vaadin-sparkline data=\"${1:1, 1, 2, 3, 5, 8, 13, 21}\"></vaadin-sparkline>"
+		],
+		"description": "Sparkline Chart Element"
+	},
+	"Vaadin Spline Chart": {
+		"prefix": "vaadin-spline-chart",
+		"body": [
+			"<vaadin-spline-chart>",
+			"\t<chart-title>${1:Fibonacci}</chart-title>",
+				"\t<x-axis>",
+				"\t\t<title>${2:Index}</title>",
+				"\t</x-axis>",
+				"\t<y-axis>",
+				"\t\t<title>${3:Value}</title>",
+				"\t</y-axis>",
+			"\t<data-series>",
+			"\t\t<data>${4:1, 1, 2, 3, 5, 8, 13, 21, 34}</data>",
+			"\t</data-series>",
+			"</vaadin-spline-chart>"
+		],
+		"description": "Spline Chart Element"
+	},
+	"Vaadin Treemap Chart": {
+		"prefix": "vaadin-treemap-chart",
+		"body": [
+			"<vaadin-treemap-chart>",
+			"\t<chart-title>${1:Fibonacci}</chart-title>",
+			"\t<color-axis min-color=\"#ffffff\" max-color=\"#7bb5ef\"></color-axis>",
+			"\t<data-series>",
+			"\t\t<layout-algorithm>squarified</layout-algorithm>",
+			"\t\t\t<data>",
+			"\t\t\t\t<point>",
+			"\t\t\t\t\t<value>1</value>",
+			"\t\t\t\t\t<color-value>1</color-value>",
+			"\t\t\t\t</point>",
+			"\t\t\t\t<point>",
+			"\t\t\t\t\t<value>2</value>",
+			"\t\t\t\t\t<color-value>2</color-value>",
+			"\t\t\t\t</point>",
+			"\t\t\t\t<point>",
+			"\t\t\t\t\t<value>3</value>",
+			"\t\t\t\t\t<color-value>3</color-value>",
+			"\t\t\t\t</point>",
+			"\t\t\t\t<point>",
+			"\t\t\t\t\t<value>5</value>",
+			"\t\t\t\t\t<color-value>5</color-value>",
+			"\t\t\t\t</point>",
+			"\t\t\t\t<point>",
+			"\t\t\t\t\t<value>8</value>",
+			"\t\t\t\t\t<color-value>8</color-value>",
+			"\t\t\t\t</point>",
+			"\t\t\t<data>",
+			"\t</data-series>",
+			"</vaadin-treemap-chart>"
+		],
+		"description": "Treemap Chart Element"
+	},
+	"Vaadin Waterfall Chart": {
+		"prefix": "vaadin-waterfall-chart",
+		"body": [
+			"<vaadin-waterfall-chart>",
+			"\t<chart-title>${1:Fibonacci}</chart-title>",
+			"\t<x-axis>",
+			"\t\t<title>${2:Index}</title>",
+			"\t</x-axis>",
+			"\t<y-axis>",
+			"\t\t<title>${3:Value}</title>",
+			"\t</y-axis>",
+			"\t<data-series>",
+			"\t\t\t<data>",
+			"\t\t\t\t<point>",
+			"\t\t\t\t\t<y>2</y>",
+			"\t\t\t\t</point>",
+			"\t\t\t\t<point>",
+			"\t\t\t\t\t<y>3</y>",
+			"\t\t\t\t</point>",
+			"\t\t\t\t<point>",
+			"\t\t\t\t\t<y>5</y>",
+			"\t\t\t\t</point>",
+			"\t\t\t\t<point>",
+			"\t\t\t\t\t<y>5</y>",
+			"\t\t\t\t</point>",
+			"\t\t\t\t<point>",
+			"\t\t\t\t\t<y>3</y>",
+			"\t\t\t\t</point>",
+			"\t\t\t\t<point>",
+			"\t\t\t\t\t<y>2</y>",
+			"\t\t\t\t</point>",
+			"\t\t\t<data>",
+			"\t</data-series>",
+			"</vaadin-waterfall-chart>"
+		],
+		"description": "Waterfall Chart Element"
+	}
+}
